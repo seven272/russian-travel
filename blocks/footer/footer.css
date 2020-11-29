@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 320px) {
     .footer {
-        width: calc(100% - 134px); 
+        width: calc(100% - 134px);
         display: flex;
         flex-direction: column;
     }
