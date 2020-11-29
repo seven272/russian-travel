@@ -1,0 +1,6 @@
+.intro {
+    width: calc(100% - (148px + 442px));
+    height: auto;
+    margin: 0 0 0 148px;
+    padding-bottom: 92px;
+}

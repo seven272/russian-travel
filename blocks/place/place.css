@@ -1,0 +1,34 @@
+.place {
+    width: calc(100% - (148px*2));
+    max-height: 660px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+}
+
+.place:nth-child(5) {
+    padding-bottom: 0;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .place {
+        width: calc(100% - (48px*2));
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .place {
+        width: calc(100% - (24px*2));
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .place {
+        width: calc(100% - (16px*2));
+    }
+  }
+  
+
+
+  

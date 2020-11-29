@@ -1,0 +1,6 @@
+.lead {
+    width: calc(100% - 296px);
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 92px;
+}
