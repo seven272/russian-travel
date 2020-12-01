@@ -6,8 +6,8 @@
   column-gap: 40px;
   row-gap: 48px;
   grid-template-areas:
-  "title website"
-  "image paragraph";
+  'title website'
+  'image paragraph';
   padding-bottom: 80px;
 }
 
@@ -43,4 +43,5 @@
       "image"
       "paragraph"
       "website";
+    }
   }
