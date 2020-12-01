@@ -1,6 +1,34 @@
 .lead {
-    width: calc(100% - 296px);
+    max-width: calc(100% - 296px);
     height: auto;
     margin: 0 auto;
     padding-bottom: 92px;
+    position: relative;
+   /* display: flex;
+    flex-direction: column;
+    justify-content: center;*/
+}
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        max-width: calc(100% - (48px*2));
+        max-height: auto;
+       
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        max-width: 768px;
+        max-height: auto;
+       
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead {
+        max-width: 100%;
+        max-height: auto;
+        
+    }
 }

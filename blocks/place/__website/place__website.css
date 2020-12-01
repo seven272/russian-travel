@@ -1,5 +1,11 @@
 .place__website {
+    grid-area: website;
+    align-self: end;
     list-style-type: none;
     padding-left: 0;
-    margin: 100px 0 48px 40px;
 }
+
+@media screen and (max-width: 320px) {
+    .place__website {
+      visibility: hidden;
+  }

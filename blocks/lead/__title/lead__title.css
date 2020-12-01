@@ -1,9 +1,34 @@
 .lead__title {
     max-width: calc(100% - 264px);
     width: 100%;
+    font-family: 'Inter-Black';
+    font-style: normal;
     font-size: 96px;
     line-height: 104%;
     margin: 0 auto;
     padding-bottom: 41px;
     text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__title {
+        max-width: calc(100% - (104px*2));
+        max-height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__title {
+        max-width: calc(100% - (24px*2));
+        max-height: auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__title {
+        max-width: (100% - (16px*2));
+        max-height: auto;
+        font-size: 40px;
+        line-height: 110%;
+    }
 }

@@ -12,18 +12,19 @@
 
 @media screen and (max-width: 1024px) {
     .cover {
+        max-width: 1024px;
         width: 100%;
-        height: auto;
-        background-image: url(../images/cover/cover-trains.jpg);
+        height: 640px;
         background-size: 1024px 640px;
+        
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover {
         width: 100%;
-        height: auto;
-        background-image: url(../images/cover/cover-trains.jpg);
+        height: 480px;
+        background-image: url(../../images/cover/cover-trains.jpg);
         background-size: 768px 480px;
     }
 }
@@ -32,7 +33,7 @@
     .cover {
         width: 100%;
         height: auto;
-        background-image: url(../images/cover/cover-trains.jpg);
+        background-image: url(../../images/cover/cover-trains.jpg);
         background-size: 320px 200px;
     }
 }

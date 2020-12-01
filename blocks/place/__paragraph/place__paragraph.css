@@ -1,6 +1,19 @@
 .place__paragraph {
-    max-width: 484px;
+    grid-area: paragraph;
     font-size: 18px;
     line-height: 163%;
-    margin: 0 0 26px 40px;
+    margin: 0;
 }
+
+  @media screen and (max-width: 768px) {
+    .place__paragraph {
+        font-size: 16px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .place__paragraph {
+        font-size: 16px;
+        margin-left: 16px;
+    }
+  }

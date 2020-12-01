@@ -2,18 +2,20 @@
     width: 100%;
     max-width: 984px;
     height: auto;
+    
 }
 
 @media screen and (max-width: 1024px) {
     .lead__polka {
         max-width: 928px;
         max-height: auto;
+        
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead__polka {
-        max-width: 768px;
+        max-width: 100%;
         max-height: auto;
     }
 }
