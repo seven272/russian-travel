@@ -10,7 +10,10 @@
     text-decoration: none;
     z-index: 3;
     color: #fff;
+    position: relative;
+    
 }
+
 
 @media screen and (max-width: 620px) {
     .cover__title {
@@ -25,8 +28,5 @@
     .cover__title {
         max-width: 288px;
         font-size: 32px;
-        line-height: 110%;
-        padding-bottom: 16px;
-
     }
 }
