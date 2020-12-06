@@ -1,4 +1,22 @@
 .footer__copyright {
+    display: flex;
     font-size: 14px;
     line-height: 114%;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 400;
+    align-self: flex-end;
+}
+
+@media screen and (max-width: 680px) {
+    .footer__copyright {
+        font-size: calc(100vw/55);
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .footer__copyright {
+        align-self: start;
+        line-height: 100%;
+        font-size: 14px;
+    }
 }

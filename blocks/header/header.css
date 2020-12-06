@@ -2,8 +2,8 @@
     max-width: calc(100% - 96px);
     display: flex;
     justify-content: space-between;
-    margin-top: 28px;
     margin: 0 auto;
+    padding-top: 28px;
     padding-bottom: 56px;
 }
 
@@ -11,10 +11,22 @@
     .header {
         max-width: calc(100% - (24px*2));
    } 
+}
+
+@media screen and (max-width: 400px) {
+    .header {
+        max-width: 289px;
+        padding-bottom: 45px;
+        padding-top: 18px;
+   } 
+   
+}
 
    @media screen and (max-width: 320px) {
     .header {
-        max-width: calc(100% - (16px*2));
+        max-width: 288px;
+        padding-bottom: 48px;
+        padding-top: 16px;
    } 
-   }
+   
 }
