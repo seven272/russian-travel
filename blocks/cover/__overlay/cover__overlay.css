@@ -2,7 +2,7 @@
     position: relative;
     background-image: url(../../../images/cover/cover-trains.jpg);
     width: 100vw;
-    height: 62.5vw;
+    min-height: 62.5vw;
     box-sizing: border-box;
     background-size: cover;
     background-position: center;
@@ -13,6 +13,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 
 .cover__overlay::before {
