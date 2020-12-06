@@ -34,3 +34,15 @@
 .cover__overlay:hover::before {
     opacity: .8;
 }
+
+@media screen and (min-width: 1281px) {
+    .cover__overlay {
+        max-width: 1184px;
+        min-height: 740px;
+    }
+
+    .cover__overlay::before {
+        max-width: 1184px;
+        max-height: 740px;
+    }
+}
